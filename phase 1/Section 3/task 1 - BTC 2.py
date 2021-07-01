@@ -39,7 +39,7 @@ def on_open(ws):
         time.sleep(1)
         ws.close()
         print("thread terminating...")
-    # creates new thread:
+    # creates new thread
     thread.start_new_thread(run, ())
 
 if __name__ == "__main__":
